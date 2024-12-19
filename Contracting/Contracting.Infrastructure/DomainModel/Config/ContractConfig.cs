@@ -64,7 +64,7 @@ internal class ContractConfig : IEntityTypeConfiguration<Contract>, IEntityTypeC
 
     public void Configure(EntityTypeBuilder<DeliveryDay> builder)
     {
-        builder.ToTable("deliveryDays");
+        builder.ToTable("deliverydays");
 
         builder.HasKey(x => x.Id);
 
@@ -74,9 +74,15 @@ internal class ContractConfig : IEntityTypeConfiguration<Contract>, IEntityTypeC
         builder.Property(x => x.Date).HasColumnName("date");
 
         builder.Property(x => x.Street).HasColumnName("street");
+        builder.Property(x => x.Number).HasColumnName("number");
 
         builder.Property(x => x.Longitude).HasColumnName("longitude");
 
         builder.Property(x => x.Latitude).HasColumnName("latitude");
+
+        builder.HasOne(c => c.Contract)  // Asegúrate de tener esta relación configurada en DeliveryDay
+               .WithMany(c => c.DeliveryDays)
+               .HasForeignKey(d => d.ContractId)
+               .OnDelete(DeleteBehavior.Cascade);
     }
 }

@@ -34,14 +34,7 @@ internal class ContractRepository : IContractRepository
 
     public async Task<Contract?> GetByIdAsync(Guid id, bool readOnly = false)
     {
-        if (readOnly)
-        {
-            return await _dbContext.Contract.AsNoTracking().FirstOrDefaultAsync(i => i.Id == id);
-        }
-        else
-        {
-            return await _dbContext.Contract.Include("_deliveryDays").SingleOrDefaultAsync(i => i.Id == id);
-        }
+        return await _dbContext.Contract.Include(c => c.DeliveryDays).FirstOrDefaultAsync(i => i.Id == id);
     }
 
     public Task UpdateAsync(Contract contract)

@@ -100,6 +100,38 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Contracting.WebApi.Controllers.ContractController",
+    "Method": "InProgressContract",
+    "RelativePath": "api/Contract/InProgress",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Contracting.Application.Contracts.InProgressContract.InProgressContractCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Contracting.WebApi.Controllers.ContractController",
+    "Method": "UpdateAddressDates",
+    "RelativePath": "api/Contract/UpdateAddressDates",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "Contracting.Application.Contracts.UpdateAddressById.UpdateAddressCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Contracting.WebApi.Controllers.PatientController",
     "Method": "CreatePatient",
     "RelativePath": "api/Patient",

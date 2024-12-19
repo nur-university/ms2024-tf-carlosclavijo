@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Contracting.Domain.Abstractions;
-using Contracting.Domain.Contracts.Events;
 using Contracting.Domain.Delivery;
 using Contracting.Domain.Shared;
 
@@ -65,23 +64,16 @@ public class Contract : AggregateRoot
         {
             throw new ArgumentNullException("Days cannot be null", nameof(days));
         }
-        //if (Type == ContractType.HalfMonth && days.Count >= 15)
-        //{
         _deliveryDays = days;
-        /*} 
-        else
-        {
-            throw new ArgumentException("Is not full month or halfmonth");
-        }*/
     }
 
-    /*public void UpdateAddresByDays(DateTime fromDate, DateTime toDate, string street, int number, double latitude, double longitude)
+    public void UpdateAddresByDays(DateTime fromDate, DateTime toDate, string street, int number, double latitude, double longitude)
     {
-        if (fromDate < DateTime.Today.AddDays(2))
+        if (fromDate < DateTime.Today.AddDays(1))
         {
             throw new ArgumentException("Date has to be day after tomorrow at least", nameof(fromDate));
         }
-        if (fromDate.Date <= toDate.Date)
+        if (fromDate.Date >= toDate.Date)
         {
             throw new ArgumentException("ToDate cannot be before than FromDate", nameof(toDate));
         }
@@ -89,10 +81,10 @@ public class Contract : AggregateRoot
         {
             if (_deliveryDays[i].Date >= fromDate.Date && _deliveryDays[i].Date <= toDate.Date)
             {
-                _deliveryDays[i] = new DeliveryDay(_deliveryDays[i].Date, street, number, latitude, longitude);
+                _deliveryDays[i] = new DeliveryDay(Id, _deliveryDays[i].Date, street, number, latitude, longitude);
             }
         }
-    }*/
+    }
 
     public void CancelDate(DateTime date)
     {
@@ -120,13 +112,12 @@ public class Contract : AggregateRoot
 
     public void Complete()
     {
-        if (Status != ContractStatus.Created)
+        if (Status != ContractStatus.InPropgress)
         {
             throw new InvalidOperationException("Cannot complete without creating a contract");
         }
         Status = ContractStatus.Completed;
         CompletedDate = DateTime.Now;
-        AddDomainEvent(new ContractCompleted(Id, Type, Cost));
     }
 
     private Contract() { }

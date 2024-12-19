@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{36B04D0A-BF65-451E-9E17-87AD68D805DC}|Contracting.Infrastructure\\Contracting.Infrastructure.csproj|c:\\users\\carlos\\desktop\\aprendizaje\\csharp\\ms2024-tf-carlosclavijo\\contracting\\contracting.infrastructure\\repositories\\contractrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B04D0A-BF65-451E-9E17-87AD68D805DC}|Contracting.Infrastructure\\Contracting.Infrastructure.csproj|solutionrelative:contracting.infrastructure\\repositories\\contractrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0E14F6D-80ED-44DF-8E50-F5678659EA4F}|Contracting\\Contracting.Domain.csproj|c:\\users\\carlos\\desktop\\aprendizaje\\csharp\\ms2024-tf-carlosclavijo\\contracting\\contracting\\contracts\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0E14F6D-80ED-44DF-8E50-F5678659EA4F}|Contracting\\Contracting.Domain.csproj|solutionrelative:contracting\\contracts\\contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{47147796-B142-43F0-B8E1-74FCD4953252}|Contragting.Application\\Contracting.Application.csproj|c:\\users\\carlos\\desktop\\aprendizaje\\csharp\\ms2024-tf-carlosclavijo\\contracting\\contragting.application\\contracts\\createcontract\\createcontracthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{47147796-B142-43F0-B8E1-74FCD4953252}|Contragting.Application\\Contracting.Application.csproj|solutionrelative:contragting.application\\contracts\\createcontract\\createcontracthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0E14F6D-80ED-44DF-8E50-F5678659EA4F}|Contracting\\Contracting.Domain.csproj|c:\\users\\carlos\\desktop\\aprendizaje\\csharp\\ms2024-tf-carlosclavijo\\contracting\\contracting\\deliverydays\\deliveryday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0E14F6D-80ED-44DF-8E50-F5678659EA4F}|Contracting\\Contracting.Domain.csproj|solutionrelative:contracting\\deliverydays\\deliveryday.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{47147796-B142-43F0-B8E1-74FCD4953252}|Contragting.Application\\Contracting.Application.csproj|c:\\users\\carlos\\desktop\\aprendizaje\\csharp\\ms2024-tf-carlosclavijo\\contracting\\contragting.application\\contracts\\updateaddress\\updateaddresshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47147796-B142-43F0-B8E1-74FCD4953252}|Contragting.Application\\Contracting.Application.csproj|solutionrelative:contragting.application\\contracts\\updateaddress\\updateaddresshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Contract.cs",
-              "DocumentMoniker": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\Contracting\\Contracts\\Contract.cs",
-              "RelativeDocumentMoniker": "Contracting\\Contracts\\Contract.cs",
-              "ToolTip": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\Contracting\\Contracts\\Contract.cs",
-              "RelativeToolTip": "Contracting\\Contracts\\Contract.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAAwF4AAAAHAAAAAAAAAA==",
+              "Title": "ContractRepository.cs",
+              "DocumentMoniker": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\Contracting.Infrastructure\\Repositories\\ContractRepository.cs",
+              "RelativeDocumentMoniker": "Contracting.Infrastructure\\Repositories\\ContractRepository.cs",
+              "ToolTip": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\Contracting.Infrastructure\\Repositories\\ContractRepository.cs",
+              "RelativeToolTip": "Contracting.Infrastructure\\Repositories\\ContractRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAcwCQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:49:35.769Z",
+              "WhenOpened": "2024-12-19T14:55:06.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreateContractHandler.cs",
-              "DocumentMoniker": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\Contragting.Application\\Contracts\\CreateContract\\CreateContractHandler.cs",
-              "RelativeDocumentMoniker": "Contragting.Application\\Contracts\\CreateContract\\CreateContractHandler.cs",
-              "ToolTip": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\Contragting.Application\\Contracts\\CreateContract\\CreateContractHandler.cs",
-              "RelativeToolTip": "Contragting.Application\\Contracts\\CreateContract\\CreateContractHandler.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowCwAAABBAAAAAAAAAA==",
+              "Title": "Contract.cs",
+              "DocumentMoniker": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\Contracting\\Contracts\\Contract.cs",
+              "RelativeDocumentMoniker": "Contracting\\Contracts\\Contract.cs",
+              "ToolTip": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\Contracting\\Contracts\\Contract.cs",
+              "RelativeToolTip": "Contracting\\Contracts\\Contract.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAIwEsAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:48:49.502Z",
+              "WhenOpened": "2024-12-19T14:41:07.512Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DeliveryDay.cs",
-              "DocumentMoniker": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\Contracting\\DeliveryDays\\DeliveryDay.cs",
-              "RelativeDocumentMoniker": "Contracting\\DeliveryDays\\DeliveryDay.cs",
-              "ToolTip": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\Contracting\\DeliveryDays\\DeliveryDay.cs",
-              "RelativeToolTip": "Contracting\\DeliveryDays\\DeliveryDay.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAIA0wB4AAAAgAAAAAAAAAA==",
+              "Title": "UpdateAddressHandler.cs",
+              "DocumentMoniker": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\Contragting.Application\\Contracts\\UpdateAddress\\UpdateAddressHandler.cs",
+              "RelativeDocumentMoniker": "Contragting.Application\\Contracts\\UpdateAddress\\UpdateAddressHandler.cs",
+              "ToolTip": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\Contragting.Application\\Contracts\\UpdateAddress\\UpdateAddressHandler.cs",
+              "RelativeToolTip": "Contragting.Application\\Contracts\\UpdateAddress\\UpdateAddressHandler.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBsAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T03:38:00.278Z",
+              "WhenOpened": "2024-12-19T14:36:54.355Z",
               "EditorCaption": ""
             }
           ]

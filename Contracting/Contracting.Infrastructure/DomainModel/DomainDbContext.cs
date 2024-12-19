@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using Contracting.Domain.Abstractions;
 using Contracting.Domain.Administrators;
 using Contracting.Domain.Contracts;
-using Contracting.Domain.Contracts.Events;
 using Contracting.Domain.Patients;
 using Microsoft.EntityFrameworkCore;
 
@@ -29,6 +28,5 @@ internal class DomainDbContext : DbContext
         base.OnModelCreating(modelBuilder);
 
         modelBuilder.Ignore<DomainEvent>();
-        modelBuilder.Ignore<ContractCompleted>();
     }
 }

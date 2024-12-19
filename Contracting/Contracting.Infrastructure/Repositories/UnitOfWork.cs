@@ -15,6 +15,7 @@ internal class UnitOfWork : IUnitOfWork
 {
     private readonly DomainDbContext _dbContext;
     private readonly IMediator _mediator;
+
     private int _contractCount = 0;
 
     public UnitOfWork(DomainDbContext dbContext)

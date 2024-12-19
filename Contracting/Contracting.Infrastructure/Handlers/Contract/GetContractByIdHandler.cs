@@ -44,6 +44,7 @@ internal class GetContractByIdHandler : IRequestHandler<GetContractByIdQuery, Co
                    {
                        Id = d.DeliveryDayId,
                        ContractId = d.ContractId,
+                       DateTime = d.Date,
                        Street = d.Street,
                        Number = d.Number,
                        Longitude = d.Longitude,
