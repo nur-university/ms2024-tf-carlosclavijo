@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A37CE9C0-DF4E-4BB4-AA0C-077AFDFF019B}|Contracting.WebApi\\Contracting.WebApi.csproj|c:\\users\\carlos\\desktop\\aprendizaje\\csharp\\ms2024-tf-carlosclavijo\\contracting\\contracting.webapi\\controllers\\administratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A37CE9C0-DF4E-4BB4-AA0C-077AFDFF019B}|Contracting.WebApi\\Contracting.WebApi.csproj|solutionrelative:contracting.webapi\\controllers\\administratorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36B04D0A-BF65-451E-9E17-87AD68D805DC}|Contracting.Infrastructure\\Contracting.Infrastructure.csproj|c:\\users\\carlos\\desktop\\aprendizaje\\csharp\\ms2024-tf-carlosclavijo\\contracting\\contracting.infrastructure\\handlers\\contract\\getcontractbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36B04D0A-BF65-451E-9E17-87AD68D805DC}|Contracting.Infrastructure\\Contracting.Infrastructure.csproj|solutionrelative:contracting.infrastructure\\handlers\\contract\\getcontractbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdministratorController.cs",
+              "DocumentMoniker": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\Contracting.WebApi\\Controllers\\AdministratorController.cs",
+              "RelativeDocumentMoniker": "Contracting.WebApi\\Controllers\\AdministratorController.cs",
+              "ToolTip": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\Contracting.WebApi\\Controllers\\AdministratorController.cs",
+              "RelativeToolTip": "Contracting.WebApi\\Controllers\\AdministratorController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T15:26:28.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetContractByIdHandler.cs",
+              "DocumentMoniker": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\Contracting.Infrastructure\\Handlers\\Contract\\GetContractByIdHandler.cs",
+              "RelativeDocumentMoniker": "Contracting.Infrastructure\\Handlers\\Contract\\GetContractByIdHandler.cs",
+              "ToolTip": "C:\\Users\\CARLOS\\Desktop\\Aprendizaje\\CSharp\\ms2024-tf-carlosclavijo\\Contracting\\Contracting.Infrastructure\\Handlers\\Contract\\GetContractByIdHandler.cs",
+              "RelativeToolTip": "Contracting.Infrastructure\\Handlers\\Contract\\GetContractByIdHandler.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwDMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T15:25:56.399Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
